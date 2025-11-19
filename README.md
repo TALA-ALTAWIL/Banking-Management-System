@@ -1,33 +1,41 @@
-# 🏦 Simple Banking Management System (C++)
+# 🏦 Bank Management System (C++ Console Application)
 
-## 📌 Project Overview
-This is a **console-based Banking Management System** written in **C++**.  
-It allows the user to manage clients' records stored in a text file.  
-The program provides functionalities to add, update, delete, search, and list clients.
+## Overview
+This is a **console-based Banking System** built in C++.  
+It provides a complete workflow for managing **clients**, **users**, and **transactions**, with **access control** for different user roles.
 
----
-
-## ✨ Features
-- 📋 Show all clients in a tabular format.
-- ➕ Add a new client (with account number, PIN, name, phone, and balance).
-- ✏️ Update an existing client’s data.
-- ❌ Delete a client (with confirmation).
-- 🔍 Find and display a specific client by account number.
-- 💾 Data persistence: All client records are saved in `Clients.txt`.
+It is suitable as a **learning project** for practicing:
+- Object-oriented programming concepts  
+- File handling  
+- User authentication and permissions  
+- System design in C++
 
 ---
 
-## 🛠️ Technologies Used
-- **C++** (Standard Library: `<iostream>`, `<fstream>`, `<vector>`, `<string>`, `<iomanip>`)
-- **File Handling** for data storage (`Clients.txt`)
-  
-# Simple Banking Management System
+## Features
 
-This is an **updated version** of my Banking Management System project.  
-New features have been added and the code has been improved.
+### Client Management
+- Add, update, delete, and view clients  
+- Find clients by account number  
+- View total balances across all clients  
 
-## New Features:
-- Deposit and Withdraw functionalities.
-- Show total balances for all clients.
-- Better structured code with reusable functions.
-- Enhanced client management (add, update, delete, find).
+### Transactions
+- Deposit and withdraw money  
+- Ensure withdrawals do not exceed account balance  
+
+### User Management
+- Add, update, delete, and view users  
+- Find users by username  
+- Set custom permissions per user  
+- Admin user has full access  
+
+### Permissions System
+- Restrict users based on actions they can perform  
+- Fine-grained access control for modules like transactions, client management, and user management  
+
+---
+
+## How to Run
+
+1. Clone the repository  
+   ```b
